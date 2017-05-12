@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<!-- meta data thingy http-equiv="Content-Type" content="text/html0" -->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=screen-width initial-scale=1.0">
+    <center>
+        <title>Tan Phan</title>
+    </center>
+    <link rel="stylesheet" type="text/css" media="screen" href="_assets/css/style.css">
+    
+</head>
+
+
+<body>
+    
+
+<ul class="topnav" id="myTopnav">
+  <li id="nav-icon"><a href="index.html"></a></li>
+  <li id="nav-works"><a href="works.html">Works</a></li>
+  <li id="nav-achievements"><a href="achievements.html">Achievements</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul>
+
+<div class="banner">
+    <p id="nameonbanner">Hi, I'm Tan. <br> Nice to meet you! </p>
+
+</div>
+ 
+ <section>
+  <h1>Who Am I?</h1>
+  <p>My name is Tan Phan. I am currently <br>attending high school at <br>Southwest Career and Technical Academy.<br> I am sixteen years old and I live in <br>Las Vegas, Nevada.<br></p>
+</section>
+
+<br>
+<br>
+<section>
+  <h1>What Are My Goals?</h1>
+  <p>I would like to graduate high school <br>then go to the University of Reno,<br> where I could get my bachelor's degree. <br>I plan to major in medical, <br>specifically in Optometry.<br></p>
+</section>
+
+ <br>                                                                           
+  <br>
+  <section>
+  <h1>What Are My Hobbies?</h1>
+  <p>I enjoy watching movies <br>and playing games. <br> During the summer I jog and excerise <br>to help stay active and relax my mind.<br>I try to combine family time and gaming<br> though out my weekends. <br></p>
+  
+  
+</section>
+<br>
+<br>
+
+ <br>                                                                           
+  <br>
+  <section>
+  <h1>Resume</h1>
+  
+    
+    <!-- Trigger the Modal -->
+<img id="myImg" src="_assets/img/resume.png" alt="Resume" style="width:80%;height:80%;">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+   
+   
+    
+</section>
+<br>
+<br>
+
+
+
+	            <div id="footerWrapper">
+                <footer id="foot">
+                    <p>Copyright © 2017 Tan Phan's Portfolio</p>
+                </footer>
+            </div>                                                                                 
+<!-- This is from w3schools:
+http://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img-->                                                                                  
+                                                                                  
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+                                                                                                                                                                   
+                                                                                  
+                                                                                   
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+</body>
+</html>

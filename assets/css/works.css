@@ -1,0 +1,864 @@
+
+@font-face {
+    font-family: "myFirstFont";
+    src: url(timeburnernormal.ttf);
+}
+
+
+#page { max-width: 940px; margin: 0 auto; position: relative; }
+
+body { 
+	font-family: "myFirstFont";
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+h1 {
+	font-size:  3em;
+}
+
+p {
+	font-size: 1.1em;
+}
+
+.banner {
+  background: white url(../img/banner.png) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 40%;
+  min-height: 600px;
+  letter-spacing: 2px;
+    z-index: -1;
+}
+#nameonbanner {
+    z-index: 9999;
+    margin-top: -10px;
+    font-size: 4vw;
+    text-align:center;
+}
+#nameonbanner {
+    z-index: 9999;
+    margin-top: -100px;
+    font-size: 5vw;
+    text-align: center;
+}
+	#intro{
+	font: italic bold x-large georgia,"Times New Roman",serif;
+	font-size: 1.5em;
+ 
+    text-align: center;
+    color: black;
+	font-family: "myFirstFont";
+	}
+
+
+#nav-icon a {
+	background:url("../img/face-computer.png") no-repeat 0px  transparent; 
+	padding-right: 950px;
+	margin-left: 100px;
+	padding-bottom: 10px;
+	padding-top: 350px;
+
+}
+
+#nav-about a {
+	padding-right: 90px; 
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#nav-works a {
+	padding-right: 90px; 
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#nav-achievements a {
+	padding-right: 90px; 
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+section{
+	text-align: center;
+}
+
+
+
+
+
+.one {
+	margin-top: 20px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #222725;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+}
+
+.two {
+	padding-top: 40px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #759FBC;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+}
+
+
+.three {
+
+	padding-top: 40px;
+	padding-bottom: 50px;
+  	width: 100%; height: 100%;
+	background-color: #70C1B3;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+}
+
+.four {
+
+	padding-top: 40px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #21897E;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+
+}
+
+
+.five {
+	padding-top: 40px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #08415C;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+}
+
+
+.six {
+
+	padding-top: 40px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #849483;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+}
+
+.seven {
+
+	padding-top: 40px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #A8796E;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+
+}
+
+
+.eight {
+	padding-top: 40px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #E57A44;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+}
+
+
+.nine {
+
+	padding-top: 40px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #817E9F;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+}
+
+.ten {
+
+	padding-top: 40px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #7FC29B;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+
+}
+
+.eleven {
+
+	padding-top: 40px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #A3A3A3;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+
+}
+
+
+
+.twelve {
+
+	padding-top: 40px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #6B2B06;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+
+}
+
+.thirteen {
+
+	padding-top: 40px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #CCA43B;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+
+}
+
+.one-phone{
+	display: none;
+}
+.two-phone{
+	display: none;
+}
+
+.one-phone{
+	display: none;
+}
+.two-phone{
+	display: none;
+}
+
+.three-phone{
+	display: none;
+}
+.four-phone{
+	display: none;
+}
+
+.five-phone{
+	display: none;
+}
+.six-phone{
+	display: none;
+}
+
+.seven-phone{
+	display: none;
+}
+.eight-phone{
+	display: none;
+}
+
+.nine-phone{
+	display: none;
+}
+
+.ten-phone{
+	display: none;
+}
+
+.eleven-phone{
+	display: none;
+}
+.twelve-phone{
+	display: none;
+}
+
+.thirteen-phone{
+	display: none;
+}
+
+footer {
+	clear: both;
+	padding: 10px 15px;
+    text-align: center;
+}
+
+
+
+/* Computer 1800*/ /* Computer 1800*/ /* Computer 1800*/ /* Computer 1800*/ /* Computer 1800*/
+
+/* When the screen is less than 1800 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width: 1770px) {
+
+.banner {
+  background: white url(../img/banner.png) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  min-height: 500px;
+  letter-spacing: 2px;
+    z-index: -1;
+}
+
+	
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+
+@media screen and (max-width: 1770px) {
+#nameonbanner {
+    z-index: 9999;
+    margin-top: -10px;
+    font-size: 4vw;
+    text-align:center;
+}
+#name { 
+	font: italic bold x-large georgia,"Times New Roman",serif;
+	font-size: 4em;
+    padding-top: 150px;
+    text-align: center;
+    color: black;
+	font-family: "myFirstFont";
+}
+	#intro{
+	font: italic bold x-large georgia,"Times New Roman",serif;
+	font-size: 1.5em;
+ 
+    text-align: center;
+    color: black;
+	font-family: "myFirstFont";
+	}
+
+
+
+
+#nav-icon a {
+	background:url("../img/face-computer.png") no-repeat 0px  transparent; 
+	padding-right: 650px;
+	margin-left: 100px;
+	padding-bottom: 10px;
+	padding-top: 350px;
+
+}
+
+#nav-about a {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-right: 60px;
+}
+
+#nav-works a {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-right: 60px;
+}
+
+#nav-achievements a {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-right: 60px;
+}
+    
+}
+    
+
+
+
+/* Computer 1800*/ /* Computer 1800*/ /* Computer 1800*/ /* Computer 1800*/ /* Computer 1800*/
+
+/* When the screen is less than 1800 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width: 1400px) {
+
+.banner {
+  background: white url(../img/banner.png) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  min-height: 300px;
+  letter-spacing: 2px;
+    z-index: -1;
+}
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+
+@media screen and (max-width: 1400px) {
+#nameonbanner {
+    z-index: 9999;
+    margin-top: -10px;
+    font-size: 4vw;
+    text-align:center;
+}
+#name { 
+	font: italic bold x-large georgia,"Times New Roman",serif;
+	font-size: 4em;
+    padding-top: 150px;
+    text-align: center;
+    color: black;
+	font-family: "myFirstFont";
+}
+	#intro{
+	font: italic bold x-large georgia,"Times New Roman",serif;
+	font-size: 1.5em;
+ 
+    text-align: center;
+    color: black;
+	font-family: "myFirstFont";
+	}
+
+
+
+
+#nav-icon a {
+	background:url("../img/face-computer.png") no-repeat 0px  transparent; 
+	padding-right: 350px;
+	margin-left: 100px;
+	padding-bottom: 10px;
+	padding-top: 350px;
+
+}
+
+#nav-about a {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-right: 60px;
+}
+
+#nav-works a {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-right: 60px;
+}
+
+#nav-achievements a {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-right: 60px;
+}
+    
+}
+    
+
+    /* Ipad*/  /* Ipad*/  /* Ipad*/  /* Ipad*/  /* Ipad*/  /* Ipad*/ 
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #50BDDA;
+	
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+	font-size: 2.1em;
+}
+#nameonbanner {
+    z-index: 9999;
+    margin-top: -10px;
+    font-size: 4vw;
+    text-align:center;
+}
+#name { 
+	font: italic bold x-large georgia,"Times New Roman",serif;
+	font-size: 4em;
+    padding-top: 150px;
+    text-align: center;
+    color: black;
+	font-family: "myFirstFont";
+}
+	#intro{
+	font: italic bold x-large georgia,"Times New Roman",serif;
+	font-size: 1.5em;
+ 
+    text-align: center;
+    color: black;
+	font-family: "myFirstFont";
+	}
+
+
+
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #0CCCFF;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+/* When the screen is less than 1090 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width: 1090px) {
+
+.banner {
+  background: white url(../img/banner.png) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  min-height: 300px;
+  letter-spacing: 2px;
+}
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+
+@media screen and (max-width: 1090px) {
+
+
+#nav-icon a {
+	background:url("../img/face-ipad.png") no-repeat 0px  transparent; 
+	padding-right: 180px;
+	margin-left: 80px;
+	padding-bottom: 100px;
+	padding-top: 100px;
+
+}
+    
+#nav-about a {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+
+#nav-works a {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+
+#nav-achievements a {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+    
+
+}
+	
+
+
+
+/* Phone */ /* Phone */ /* Phone */ /* Phone */ /* Phone */ /* Phone */
+
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:800px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+		body{
+		background-size:  100%;
+		background-position: top;
+	}
+	
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:800px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: center;
+  }
+	h1{
+		font-size: 1.2em;
+	}
+	.hero{
+	}
+	ul.topnav li a{
+		font-size: 1em;
+	}
+	#nav-icon a {
+	background:url("../img/face-phone.png") no-repeat 0px  transparent; 
+	padding-right: 50px;
+	margin-left: 40px;
+	padding-bottom: 39px;
+	padding-top: 50px;
+	}
+	
+	#nav-about a {
+	font-size: 2em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#nav-achievements a {
+	font-size: 2em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+	
+.banner {
+  background: white url(../img/banner.png) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  min-height: 200px;
+
+  letter-spacing: 2px;
+}
+    p{
+        font-size: .75em;
+    }
+	
+	.one{
+		display: none;
+		
+	}
+	.two{
+		display: none;
+	}
+	
+	.three{
+		display: none;
+		
+	}
+	.four{
+		display: none;
+	}
+	
+	.five{
+		display: none;
+		
+	}
+	.six{
+		display: none;
+	}
+	
+	.seven{
+		display: none;
+		
+	}
+	.eight{
+		display: none;
+	}
+	
+	.nine{
+		display: none;
+		
+	}
+	.ten{
+		display: none;
+	}
+	
+	.eleven{
+		display: none;
+		
+	}
+	.twelve{
+		display: none;
+	}
+	
+	.thirteen{
+		display: none;
+		
+	}
+
+.one-phone {
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #222725;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+	display: inherit;
+
+}
+.two-phone {
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #759FBC;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+	display: inherit;
+
+}
+	
+	.three-phone {
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #70C1B3;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+	display: inherit;
+
+}
+	.four-phone {
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #21897E;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+	display: inherit;
+
+}
+	.five-phone {
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #08415C;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+	display: inherit;
+
+}
+	.six-phone {
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #849483;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+	display: inherit;
+
+}
+	.seven-phone {
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #A8796E;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+	display: inherit;
+
+}
+	.eight-phone {
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #E57A44;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+	display: inherit;
+
+}
+	
+	.nine-phone {
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #817E9F;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+	display: inherit;
+
+}
+	.ten-phone {
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #7FC29B;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+	display: inherit;
+
+}
+	.eleven-phone {
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #A3A3A3;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+	display: inherit;
+
+}
+	.twelve-phone {
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #6B2B06;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+	display: inherit;
+
+}
+	.thirteen-phone {
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+    width: 100%; height: 100%;
+	background-color: #CCA43B;
+	text-align: center;
+	color: white;
+	font-size: 1.9em;
+	display: inherit;
+
+}
+	
+}
+
+	
+	
+	
+
+
+
+

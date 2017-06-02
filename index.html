@@ -9,14 +9,14 @@
         <title>Tan Phan</title>
     </center>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-	<link rel="icon" href="assets/img/tanphan.gif" type="image/gif" sizes="16x16">
+    <link rel="icon" href="assets/img/tanphan.gif" type="image/gif" sizes="16x16">
     
 </head>
 
 
 <body>
     
-
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <ul class="topnav" id="myTopnav">
   <li id="nav-icon"><a href="index.html"></a></li>
   <li id="nav-works"><a href="works.html">Works</a></li>
@@ -126,6 +126,26 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+</script>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    document.documentElement.scrollTop = 0; // For IE and Firefox
+}
+	
 </script>
 
 

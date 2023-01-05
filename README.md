@@ -1,1 +1,2 @@
-# tanthanhphan.github.io
+# Tan's portfolio website
+tanthanhphan.github.io

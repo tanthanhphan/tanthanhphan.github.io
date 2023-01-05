@@ -1,2 +1,2 @@
 # Tan's portfolio website
-tanthanhphan.github.io
+go to [Tan's portfolio](tanthanhphan.github.io) to see the site

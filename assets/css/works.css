@@ -343,7 +343,7 @@ footer {
   color: #fff;
   padding-top: 20%;
   padding-bottom: 20%;
-  min-height: 500px;
+  min-height: 10px;
   letter-spacing: 2px;
     z-index: -1;
 }
@@ -422,7 +422,7 @@ footer {
   color: #fff;
   padding-top: 20%;
   padding-bottom: 20%;
-  min-height: 100px;
+  min-height: 10px;
   letter-spacing: 2px;
     z-index: -1;
 }
@@ -553,7 +553,7 @@ ul.topnav li.icon {display: none;}
   color: #fff;
   padding-top: 20%;
   padding-bottom: 20%;
-  min-height: 100px;
+  min-height: 10px;
   letter-spacing: 2px;
 }
 }

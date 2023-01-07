@@ -1,6 +1,6 @@
 @font-face {
     font-family: "myFirstFont";
-    src: url(timeburnernormal.ttf);
+    src: url(RobotoRegular.ttf);
 }
 
 
@@ -25,7 +25,7 @@ p {
   background: white url(../img/banner.png) no-repeat center center;
   background-size: cover;
   color: #fff;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
   min-height: 100px;
   letter-spacing: 2px;
     z-index: -1;
@@ -527,7 +527,7 @@ ul.topnav li.icon {display: none;}
   color: #fff;
   padding-top: 20%;
   padding-bottom: 20%;
-  min-height: 200px;
+  min-height: 100px;
   letter-spacing: 2px;
 }
     p{

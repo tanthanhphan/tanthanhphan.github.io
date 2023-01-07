@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: "myFirstFont";
-    src: url(timeburnernormal.ttf);
+    src: url(RobotoRegular.ttf);
 }
 
 
@@ -26,8 +26,8 @@ p {
   background: white url(../img/banner.png) no-repeat center center;
   background-size: cover;
   color: #fff;
-  padding-bottom: 40%;
-  min-height: 600px;
+  padding-bottom: 5%;
+  min-height: 100px;
   letter-spacing: 2px;
     z-index: -1;
 }
@@ -88,7 +88,6 @@ section{
 
 
 .ento {
-	margin-top: 20px;
 	padding-top: 40px;
 	padding-bottom: 50px;
     width: 100%; height: 100%;
@@ -219,7 +218,7 @@ footer {
   color: #fff;
   padding-top: 20%;
   padding-bottom: 20%;
-  min-height: 500px;
+  min-height: 100px;
   letter-spacing: 2px;
     z-index: -1;
 }
@@ -298,7 +297,7 @@ footer {
   color: #fff;
   padding-top: 20%;
   padding-bottom: 20%;
-  min-height: 300px;
+  min-height: 100px;
   letter-spacing: 2px;
     z-index: -1;
 }
@@ -429,7 +428,7 @@ ul.topnav li.icon {display: none;}
   color: #fff;
   padding-top: 20%;
   padding-bottom: 20%;
-  min-height: 300px;
+  min-height: 100px;
   letter-spacing: 2px;
 }
 }
@@ -538,7 +537,7 @@ ul.topnav li.icon {display: none;}
   color: #fff;
   padding-top: 20%;
   padding-bottom: 20%;
-  min-height: 200px;
+  min-height: 100px;
 
   letter-spacing: 2px;
 }

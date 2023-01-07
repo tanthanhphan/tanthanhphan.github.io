@@ -25,8 +25,8 @@ p {
   background: white url(../img/banner.png) no-repeat center center;
   background-size: cover;
   color: #fff;
-  padding-bottom: 5%;
-  min-height: 100px;
+  padding-bottom: 2%;
+  min-height: 10px;
   letter-spacing: 2px;
     z-index: -1;
 }
@@ -128,7 +128,7 @@ I used the same code, but made changes to match my website
   color: #fff;
   padding-top: 20%;
   padding-bottom: 20%;
-  min-height: 500px;
+  min-height: 10px;
   letter-spacing: 2px;
     z-index: -1;
 }
@@ -412,7 +412,7 @@ ul.topnav li.icon {display: none;}
   color: #fff;
   padding-top: 20%;
   padding-bottom: 20%;
-  min-height: 300px;
+  min-height: 10px;
   letter-spacing: 2px;
 }
 }
@@ -439,13 +439,13 @@ ul.topnav li.icon {display: none;}
 #nav-works a {
     padding-top: 60px;
     padding-bottom: 30px;
-    padding-right: 10px;
+    padding-right: 50px;
 }
 
 #nav-achievements a {
     padding-top: 60px;
     padding-bottom: 30px;
-    padding-right: 10px;
+    padding-right: 50px;
 }
     
 
@@ -526,8 +526,7 @@ ul.topnav li.icon {display: none;}
   background-size: cover;
   color: #fff;
   padding-top: 20%;
-  padding-bottom: 20%;
-  min-height: 100px;
+  min-height: 10px;
   letter-spacing: 2px;
 }
     p{
